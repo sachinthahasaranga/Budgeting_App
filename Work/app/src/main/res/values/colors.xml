@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="add_new_category_color">#070707</color>
+    <color name="select_a_category">#0A0A0A</color>
+    <color name="calculated_budget_text_color">#090808</color>
+    <color name="monthly_income_color">#0E0D0D</color>
+    <color name="total_expence_color">#111111</color>
+    <color name="new_category_text_color">#020202</color>
+    <color name="category_name_color">#070707</color>
+    <color name="category_name_intextbarcolor">#8f9a92</color>
+    <color name="page_title_color">#000000</color>
+    <color name="view_details_color">#F7F0EF</color>
+    <color name="toolbarcolor">#949597</color>
+</resources>

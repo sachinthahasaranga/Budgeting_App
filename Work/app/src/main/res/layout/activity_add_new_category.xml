@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".AddNewCategory">
+
+
+   <View
+       android:id="@+id/divider2"
+       android:layout_width="409dp"
+       android:layout_height="1dp"
+       android:layout_marginTop="16dp"
+       android:background="?android:attr/listDivider"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.5"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/page_title"
+       tools:ignore="MissingConstraints" />
+
+   <TextView
+       android:id="@+id/page_title"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="16dp"
+       android:text="@string/new_category"
+       android:textColor="@color/white"
+       android:textSize="30sp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       tools:ignore="MissingConstraints" />
+
+   <TextView
+       android:id="@+id/category_name"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="240dp"
+       android:text="@string/category_name"
+       android:textColor="@color/white"
+       android:textSize="20sp"
+       app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.177"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/divider2"
+       app:layout_constraintVertical_bias="0.786"
+       tools:ignore="UnknownId" />
+
+   <EditText
+       android:id="@+id/category_name_text"
+       android:layout_width="315dp"
+       android:layout_height="46dp"
+       android:layout_marginTop="280dp"
+       android:autofillHints=""
+       android:ems="10"
+       android:inputType="textPersonName"
+       android:hint="Name"
+       android:textColor="@color/white"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/divider2"
+       tools:ignore="LabelFor,MissingConstraints" />
+
+   <Button
+       android:id="@+id/btnAdd"
+       android:layout_width="333dp"
+       android:layout_height="79dp"
+       android:backgroundTint="@color/black"
+       android:text="@string/add_new_expense"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.474"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/divider2"
+       app:layout_constraintVertical_bias="0.811" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BudgetingApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".UpdateUserProfile"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfile"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateCatExpense"
+            android:exported="false" />
+        <activity
+            android:name=".ViewACategory"
+            android:exported="false" />
+        <activity
+            android:name=".AddNewCategory"
+            android:exported="false" />
+        <activity
+            android:name=".ViewAllCategories"
+            android:exported="false" />
+        <activity
+            android:name=".BudgetCalculator"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateExpense"
+            android:exported="false" />
+        <activity
+            android:name=".ExpenseTracker"
+            android:exported="false" />
+        <activity
+            android:name=".OptionsMenu"
+            android:exported="false" />
+        <activity
+            android:name=".ViewAnArticle"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateArticle"
+            android:exported="false" />
+        <activity
+            android:name=".AddArticle"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".AdminHome"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="true"
+            android:noHistory="true" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:noHistory="true" />
+    </application>
+
+</manifest>
