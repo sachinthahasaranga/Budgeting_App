@@ -1,2 +1,2 @@
 # Budgeting_App
-this is a mad project app
+A budgeting app developed using Kotlin is a mobile application that allows users to track their expenses, income, and budget on their mobile devices. The app would have a user-friendly interface that allows users to easily input and categorize their transactions, view their spending trends over time, and set limits on their budget categories. The app would store user data in a database and implement security measures such as user authentication and data encryption to protect users' financial data. Overall, the app would provide a convenient and efficient way for users to manage their finances and stay on top of their budget while on-the-go.
